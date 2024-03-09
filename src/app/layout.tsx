@@ -18,8 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={inter.className + ' p-8 space-y-5'}>
-        <Header>André Buitoni Portfolio</Header>
+      <body className={inter.className + ' p-8 space-y-5 max-w-6xl'}>
         {children}
       </body>
     </html>

@@ -1,11 +1,11 @@
 export default function Header({ children }: any) {
   return (
     <div className="flex">
-      <header className="flex-1">
+      {/* <header className="flex-1">
         <h1 className="text-4xl">{children}</h1>
-      </header>
+      </header> */}
       <nav>
-        <ul className="flex gap-6">
+        <ul className="space-y-2">
           <li><a href="#HOME">HOME</a></li>
           <li><a href="#SOBRE MIM">SOBRE MIM</a></li>
           <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
