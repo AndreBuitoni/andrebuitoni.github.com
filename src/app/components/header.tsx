@@ -1,9 +1,7 @@
-export default function Header({ children }: any) {
+
+export default function Header() {
   return (
     <div className="flex">
-      {/* <header className="flex-1">
-        <h1 className="text-4xl">{children}</h1>
-      </header> */}
       <nav>
         <ul className="space-y-2">
           <li><a href="#HOME">HOME</a></li>

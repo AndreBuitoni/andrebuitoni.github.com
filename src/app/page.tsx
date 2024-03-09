@@ -1,8 +1,8 @@
 import Header from "./components/header";
 import Title from "./components/title";
 
-// import { fotoAndre } from "../../assets/foto-andre.png"
 import Image from "next/image";
+import profilePic from "../../assets/foto-andre.png";
 
 export default function Home() {
   return (
@@ -10,20 +10,20 @@ export default function Home() {
       <section id="HOME" className="flex justify-between">
         <figure>
           <Image
-            src="../../assets/foto-andre.png"
-            width={60}
-            height={80}
+            src={profilePic}
+            width={300}
+            height={400}
             alt="Foto do André"
           />
         </figure>
-        <article className="w-6/12">
-          <p className="text-yellow-500 text-5xl font-bold">
+        <article className="w-7/12">
+          <p className="text-yellow-500 text-5xl font-bold text-center">
             - EU SOU ANDRÉ BUITONI.
           </p>
-          <p className="text-3xl font-bold">
-            WEB DESIGNER E DESENVOLVEDOR FRONTEND
+          <p className="text-2xl text-center font-bold">
+            WEB DESIGNER / DESENVOLVEDOR FRONTEND
           </p>
-          <p>
+          <p className="p-3 ml-4 text-left">
             Transformo ideias em interfaces envolventes e funcionais. Combino
             habilidades técnicas com uma abordagem criativa para garantir
             projetos atraentes, intuitivos e acessíveis. Acredito que o design é
